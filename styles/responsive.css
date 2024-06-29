@@ -1,0 +1,29 @@
+@media(max-width: 768px){
+   .logo{
+    width: 50%;
+   }
+   .header__content{
+    display: block;
+   }
+   .header__content--features{
+        display: block;
+        font-size: 18px;
+        font-weight: 500;
+   }
+   .header__cont-feat-titre{
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .header__cont-feat-titre2{
+    font-size: 18px;
+    font-weight: 500;
+   }
+   .header__content-email{
+    font-size:18px ;
+    font-weight: 500;
+   }
+   .btn__icon{
+    width: 25px;
+    height: 25px;
+   }
+}
