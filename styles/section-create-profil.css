@@ -1,0 +1,28 @@
+.section__create-profils{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    margin-top: 10px;
+}
+
+.section__create-profils-feat{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    justify-content: center;
+}
+
+.section__create-profil--titre{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.section__create-profil--parag{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}

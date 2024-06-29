@@ -1,0 +1,111 @@
+.section__asked-question{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.section__asked-question--{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.section__asked-titre{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    color: #fff;
+    padding-top: 20px;
+   
+}
+
+.section__asked-classement{
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.section__asked-li{
+    background-color:#2d2d2d;
+    color: #ffffff;
+}
+
+.section__asked-btn{
+    background-color: #222222;
+    color:#ffffff ;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+}
+
+.section__asked-btn:hover{
+    background-color: #414141;
+}
+
+.section__asked-question-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 100px;
+}
+
+.section__asked-question-form-titre{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.section__asked-question-formm--{
+    display: flex;
+    gap: 10px;
+}
+
+.section__asked-inp{
+    outline: none;
+    border: none;
+    size: 1em;
+    width: 400px;
+    height: 50px;
+    color: #fff;
+    border-radius: 10px;
+    transform: translate(0%, 0%);
+    background-color: #0f0f0f;
+    padding: 24px 16px 8px 16px;
+    opacity: 0.9;
+}
+
+.section__asked--btn{
+    width: 200px;
+    height: 50px;
+    background-color: #e50914;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+    font-weight: 500;
+    font-size: 24px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;  
+    gap: 25px;
+
+   
+}
